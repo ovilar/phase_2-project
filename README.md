@@ -1,12 +1,10 @@
-# My Phase 2 Project for Flatiron School
-This is my Phase 2 Project for Flatiron School's Data Science Program
+# Regressio Model - Housing Price Project
 
 ## OVERVIEW
 I investigate a dataset of housing prices in King County - WA. Using a
 regression framework, under two specific settings: causal and prediction. I
 delineate which factors are the most relevant to housing prices and how can
 one accurately predict the price of a real state in King County.
-
 
 ## BUSINESS UNDERSTANDING
 The purchase of a house is one of the biggest investments that one could make.
@@ -23,7 +21,8 @@ I use the 'kc_house_data.csv' provided from Flatiron School's repository:
 <a href='https://github.com/learn-co-curriculum/dsc-phase-2-project-v2-3'>original repo</a>.
 
 Missing value, encoding and transformation is perfomed on this dataset. The
-final dataset has more than 20,000 rows and 200 columns.
+final dataset has more than 20,000 rows and 200 columns. The overall location distribution is highly concentrated around the Seattle area.
+<img src = 'https://github.com/ovilar/phase_2-project/blob/main/img/figure00.jpg' alt = "City-Town concentration">
 
 ## REGRESSION FRAMEWORK
 I perform two regression frameworks: a causal inference approach - where I
@@ -56,4 +55,13 @@ The use of polynomial features, aggregating demographic information and other.
 ## INSTRUCTIONS
 This repository provides basic guidelines on how to navigate through this notebook and its material. For the sake of space, I do not make the dataset available.
 
-You will find: presentation files, juyter notebook with all the code and this readme file.
+Here you will find:
+<ul>
+<li><a href= "https://github.com/ovilar/phase_2-project/blob/main/presentation.pdf">Presentation file</a>;</li>
+<li>Jupyter Notebook;</li>
+<li>README.md file;</li>
+<li> A .gitignore - <a href = "https://gist.github.com/octocat/9257657">taken from here</a>;</li>
+<li>Image Folder.</li>
+</ul>
+
+Feel free to reach out if you have any critique, suggestion or correction.
